@@ -1,0 +1,9 @@
+const countries = ["France", "Germany", "Italy", "Spain"];
+
+if (countries.includes("Ethiopia")) {
+  console.log("ETHIOPIA");
+} else {
+  countries.push("Ethiopia");
+  console.log("Added Ethiopia to the list.");
+  console.log("Updated countries list:", countries);
+}
